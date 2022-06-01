@@ -19,10 +19,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Github cli-tool</h3>
 
   <p align="center">
-    project_description
+    A CLI tool for keeping packages in a repositories up-to-date.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -68,9 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+A CLI tool to help in managing package versions on Github repositories.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -78,14 +76,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Node.js](https://nodejs.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -99,26 +90,23 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+1. Install npm
 * npm
   ```sh
   npm install npm@latest -g
   ```
+2. Download git from - https://git-scm.com/downloads
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
+2. Install NPM packages
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   npm i
    ```
-3. Install NPM packages
+3. Install the package globally on your machine
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   npm i -g
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -128,27 +116,16 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Store your csv file in the csv_files folder in the root directory.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+then 2 options are available
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+1. cli-tool -i <csv_file_name> <package_name_with_version> (for 1st feature)
+![image](https://user-images.githubusercontent.com/60805305/171470791-a6f9456b-a467-4792-a7e3-39ca8b89c233.png)
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+3. cli-tool -u <csv_file_name> <package_name_with_version> (for 2nd feature)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -180,20 +157,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - singhal.yash8080@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-singhalyash8080](https://github.com/dyte-submissions/dyte-vit-2022-singhalyash8080)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
