@@ -59,11 +59,10 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Clone the repo
-2. Install NPM packages
    ```sh
-   npm i
+   git clone https://github.com/dyte-submissions/dyte-vit-2022-singhalyash8080
    ```
-3. Install the package globally on your machine
+2. Install the package globally on your machine
    ```sh
    npm i -g
    ```
