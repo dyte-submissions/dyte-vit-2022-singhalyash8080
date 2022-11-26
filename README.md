@@ -83,7 +83,7 @@ then 2 options are available
 eg. - cli-tool -i input1.csv axios@0.23.1
 ![image](https://user-images.githubusercontent.com/60805305/171470791-a6f9456b-a467-4792-a7e3-39ca8b89c233.png)
 
-2. cli-tool -u <csv_file_name> <package_name_with_version> (for 2nd feature)
+2. cli-tool -u <csv_file_name> <package_name_with_version> (for 2nd feature - incomplete)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
